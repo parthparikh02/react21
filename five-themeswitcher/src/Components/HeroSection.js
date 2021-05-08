@@ -1,9 +1,10 @@
+/* eslint-disable */
 import React, { useContext } from "react";
 import AppTheme from "../Colors";
 import ThemeContext from "../Context/ThemeContext";
 
 const HeroSection = () => {
-  const theme = useContext(ThemeContext)[0];
+  const [theme, setTheme] = useContext(ThemeContext)[0];
   const currectTheme = AppTheme[theme];
 
   return (

@@ -10,8 +10,8 @@ const HeroSection = () => {
     <div
       style={{
         padding: "1rem",
-        backgroundColor: `${currectTheme.backgroundColor}`,
-        color: `${currectTheme.textColor}`,
+        backgroundColor: "${currectTheme.backgroundColor}",
+        color: "${currectTheme.textColor}",
         textAlign: "center",
       }}
     >
@@ -23,7 +23,7 @@ const HeroSection = () => {
           padding: "10px 150px",
           fontSize: "20px",
           color: "#FFF",
-          border: `${currectTheme.border}`,
+          border: "${currectTheme.border}",
         }}
       >
         Click Me

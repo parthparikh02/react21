@@ -19,6 +19,9 @@ const HeroSection = () => {
       <h1>Context API theme toggler</h1>
       <p>This is a nice paragraph</p>
       <button
+        onClick={() => {
+          setTheme(themeMode === "light" ? "dark" : "light");
+        }}
         style={{
           backgroundColor: "#26ae60",
           padding: "10px 150px",

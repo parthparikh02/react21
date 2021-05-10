@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import ThemeContext from "../Context/ThemeContext";
 
 const ThemeToggler = () => {
-  const [{ themeMode }, setThemeMode] = useContext(ThemeContext);
+  const [themeMode, setThemeMode] = useContext(ThemeContext);
 
   return (
     <div

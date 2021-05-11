@@ -15,14 +15,15 @@ import CartItem from "./CartItem";
 
 const Cart = ({ cartItem, removeItem, buyNow }) => {
   let amount = 0;
-  CartItem.forEach((item) => {
+
+  cartItem.forEach((item) => {
     amount = parseFloat(amount) + parseFloat(item.productPrice);
   });
   return (
     <Container fluid>
       <h1 className="text-success">Your Cart</h1>
       <ListGroup>
-        {CartItem.map((item) => (
+        {cartItem.map((item) => (
           <ListGroupItem key={item.id}>
             <Row>
               <Col>

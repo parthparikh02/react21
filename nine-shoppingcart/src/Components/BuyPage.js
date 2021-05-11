@@ -4,7 +4,7 @@ import { random, commerce, datatype } from "faker";
 import { Container, Col, Row } from "reactstrap";
 import CartItem from "./CartItem";
 
-const APIKEY = "563492ad6f91700001000001a83a91b2ad994e089f2aa6334b719657"; // "INSERT_YOUR_KEY_HERE";
+const APIKEY = "INSERT_YOUR_KEY_HERE";
 
 const URL = "https://api.pexels.com/v1/search?query=laptop&per_page=6&page=1";
 const LOCAL_URL = "https://mocki.io/v1/bcc108b4-7073-4f4b-a6f4-3ae2dc2f732c";

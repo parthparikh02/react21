@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import AppTheme from "../Colors";
 import ThemeContext from "../Context/ThemeContext";
 
@@ -20,7 +20,7 @@ const HeroSection = () => {
       <p>This is a nice paragraph</p>
       <button
         onClick={() => {
-          setTheme(themeMode === "light" ? "dark" : "light");
+          setTheme(currectTheme === "light" ? "dark" : "light");
         }}
         style={{
           backgroundColor: "#26ae60",
